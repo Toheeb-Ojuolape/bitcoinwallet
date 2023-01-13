@@ -68,7 +68,8 @@ export default function App() {
       }
     };
     getSeed();
-  }, [mnemonic]);
+    // eslint-disable-next-line
+  }, []);
 
   // Addresses
   useEffect(() => {
